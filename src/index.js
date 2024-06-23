@@ -10,8 +10,8 @@ const toggleTrafficLightColor = (currentColor) => {
 };
 
 const colorsMap = new Map([
-  ['RED', { time: 20 }],
-  ['GREEN', { time: 40 }],
+  ['RED', { time: 10 }],
+  ['GREEN', { time: 15 }],
 ]);
 
 const pushMessage = (session, color, timeLeft) => {
